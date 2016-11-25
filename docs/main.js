@@ -9,7 +9,7 @@ var Tooltip = React.createClass({
   render: function () {
     return React.createElement(
       'div',
-      { style: { width: "200px", height: "100vh", margin: '0 auto', position: 'absolute', zIndex: '200', top: '200' } },
+      { style: { width: "200px", margin: '0 auto', position: 'absolute', zIndex: 200, top: 200 } },
       React.createElement(
         'a',
         { 'data-tip': 'React-tooltip' },
